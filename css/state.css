@@ -1,0 +1,41 @@
+/*header li a {
+	position:relative;
+}
+header li a:before{
+	content:""; /*pas de contenu*/
+/*	display: block; /* créer la boite*/
+/*	width: 10px;
+	height:10px;	background-color:#CEC5B0;
+	position: absolute; /*se mets en origine x0 et y0 de son parent*/
+/*	left: 50%;
+	top: -15px; /* pas de marge négative mais ok pour une abscisse et ordonnée*/
+/*	transition: all ease 2s ;/*les puces tournent quand on passe sur le lien avec la souris puis retourne dans l'autre sens quand on s'en va*/
+/*}
+header li a:hover:before{
+	transform:rotate(360deg);
+}*/
+
+
+
+/*.menu li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+ /*   left: auto;
+}
+
+.menu >li >a {
+	position:relative;
+}
+.menu >li >a:before{
+	content:""; /*pas de contenu*/
+/*	display: block; /* créer la boite*/
+/*	width: 10px;
+	height:10px;
+	background-color:#CEC5B0;
+	position: absolute; /*se mets en origine x0 et y0 de son parent*/
+/*	left: 50%;
+	top: -15px; /* pas de marge négative mais ok pour une abscisse et ordonnée*/
+/*	transition: all ease 2s ;/*les puces tournent quand on passe sur le lien avec la souris puis retourne dans l'autre sens quand on s'en va*/
+/*}
+.menu >li >a:hover:before{
+	transform:rotate(360deg);
+}

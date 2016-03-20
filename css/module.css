@@ -1,0 +1,390 @@
+/*.menu li {
+     display: inline-block ;
+    padding-left: 10px;
+}
+ul.menu {
+    padding-left: 300px;
+    margin-top: 30px;
+    min-height: 40px;
+}*/
+/*.menu > li {
+     display: inline-block ;
+    padding-left: 10px;
+    text-align: center;
+}
+ul.menu {
+    padding-left: 300px;
+    margin-top: 30px;
+    min-height: 40px;
+}
+.menu, .menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    display: block;
+}
+.menu ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+ /*   left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+*/
+.menu>ul{
+padding:10px 15px 0 0px;
+margin:0px 0px 0 0px;
+list-style:none;
+
+
+
+}
+.menu{
+    width: 500px;
+    padding:0px 0 0px 0px;
+    margin:0px;
+    list-style:none;
+    float:right;
+}
+.menu ul{
+    border: #D33E04 solid 2px 0 0 2px ;
+}
+.menu>li{
+display:inline-block;
+position:relative;
+border-radius:8px 8px 08px 8px;
+padding: 5px 4px 5px 4px;
+
+}
+
+.menu ul li{
+display:inherit;
+border-radius:0;
+}
+.menu ul li:hover{
+border-radius:0;
+}
+.menu ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+.menu ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0px;
+right: 0px;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+.menu li:hover ul{
+max-height:15em;
+}
+/* background des liens menus */
+.menu li:first-child{
+background-color: #CEC5B0;
+/*background-image:-webkit-linear-gradient(top, #E54F04);*/
+/*background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);*/
+}
+.menu li:nth-child(2){
+background-color: #CEC5B0;
+/*background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);*/
+}
+.menu li:nth-child(3){
+background-color: #CEC5B0;
+/*background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
+background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);*/
+}
+.menu li:nth-child(4){
+background-color: #CEC5B0;
+/*background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
+background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);*/
+}
+.menu li:last-child{
+background-color: #CEC5B0;
+/*background-image:-webkit-linear-gradient(top, #CFFF6A 0%, #677F35 100%);
+background-image:linear-gradient(to bottom, #CFFF6A 0%, #677F35 100%);*/
+}
+/* background des liens sous menus */
+.menu li:first-child li{
+background:#CEC5B0;
+}
+.menu li:nth-child(2) li{
+background:#CEC5B0;
+}
+.menu li:nth-child(3) li{
+background:#CEC5B0;
+}
+.menu li:last-child li{
+background:#CEC5B0;
+}
+/* background des liens menus et sous menus au survol */
+.menu li:first-child:hover, .menu li:first-child li:hover{
+background:#CEC5B0;
+}
+.menu li:nth-child(2):hover, .menu li:nth-child(2) li:hover{
+background:#CEC5B0;
+}
+.menu li:nth-child(3):hover, .menu li:nth-child(3) li:hover{
+background:#CEC5B0;
+}
+.menu li:last-child:hover, .menu li:last-child li:hover{
+background:#CEC5B0;
+}
+/* les a href */
+.menu a{
+text-decoration:none;
+display:block;
+padding:0px 15px;
+color:#fff;
+font-family:arial;
+}
+.menu ul a{
+padding: 8px 0px;
+}
+.menu li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+.menu li:hover a, .menu li li:hover a{
+color:#D33E04;
+}
+
+
+
+
+
+.phraseverteheader{
+    font-size: 10px;
+}
+.phraseheader{
+    padding-left: 320px;
+    padding-top: 5px;
+    width: 640px;
+    font-size: 11px;
+    line-height: 14px;
+}
+.date{
+	background: url(../img/puce.png) no-repeat 60px;
+    padding: 80px;
+}
+.textenews{
+    width: 140px;
+    margin-left: 80px;
+    margin-bottom:5px;
+    margin-top:5px;
+    line-height: 12px;
+}
+.texteimage1{
+    width: 90px;
+    line-height: 12px;
+}
+.texteimage2{
+    width: 170px;  
+    line-height: 12px;
+}
+
+.titreettexte{
+width :100px;
+height: 80px;
+float:right;
+}
+img{
+	width:90px;
+	margin-bottom: 20px;
+}
+.readmore {
+font-size: 11px;
+text-decoration :underline;
+}
+.puce{	
+margin: 10px;
+}
+.copyright{
+padding: 0 0 0 300px;
+margin-top: 10px;
+}
+/***********FORMULAIRE****************************/
+form {
+    width: 500px;
+    text-align:center; 
+}
+form p{
+    color: #B2B537;
+    text-align:right;
+}
+
+header + h3{
+    padding: 0 0px 0px 250px;
+    border :none;
+}
+h3 + h4{
+    padding: 0 0px 0px 200px;
+    border :none;
+    font-size: 10px;
+    width: 600px;
+}
+h4 + h5{
+    font-size: 20px;
+    padding: 0 0px 0px 280px;
+    
+    }
+label[for="Monsieur"]{
+    color:#B2B537;
+
+    
+}
+input[for="Monsieur"]{
+    text-align: left;
+
+
+}
+label[for="Madame"]{
+    color:#B2B537;
+    margin-right: 38%;
+    }
+
+
+input[name="nom"]{
+    color:#A69E86;
+    margin-right: 24%;
+
+}
+label[for="nom"]{
+    color:#A69E86;
+    
+
+}
+input[name="prenom"]{
+    color:#A69E86;
+    margin-right: 24%;
+
+}
+label[for="prenom"]{
+    color:#A69E86;
+    
+}
+input[name="Email"]{
+    color:#A69E86;
+    margin-right: 24%;
+
+}
+label[for="Email"]{
+    color:#A69E86;
+    
+}
+input[name="Siteinternet"]{
+    color:#A69E86;
+    margin-right: 24%;
+
+}
+label[for="Siteinternet"]{
+    color:#A69E86;
+    
+}
+input[name="pass"]{
+    color:#A69E86;
+    margin-right: 24%;
+    
+
+}
+label[for="pass"]{
+    color:#A69E86;
+  
+}
+input[name="Datedenaissance"]{
+    color:#A69E86;
+    margin-right: 24%;
+
+}
+label[for="Datedenaissance"]{
+    color:#A69E86;
+}
+input[name="Cartedidentite"]{
+    color:#A69E86;
+    margin-right: 80px;
+}
+label[for="Cartedidentite"]{
+    color:#A69E86;
+}
+select[name="Modedelivraison"]{
+    color:#A69E86;
+    margin-right: 40%;
+}
+label[for="Modedelivraison"]{
+    color:#A69E86;
+}
+input[name="Assurance"]{
+    color:#A69E86;
+    
+}
+label[for="Assurance"]{
+    color:#A69E86;
+}
+label[for="Accidentnucleaire"]{
+    margin-right: 22%;
+}
+textarea[name="Commentaire"]{
+    color:#A69E86;
+    margin-right: 24%;
+}
+label[for="Commentaire"]{
+    color:#A69E86;
+}
+input[name="Codeinvitation"]{
+    color:#A69E86;
+    margin-right: 24%;
+
+}
+label[for="Codeinvitation"]{
+    color:#A69E86;
+}
+input[name="Suivant"]{
+margin-left: 10%;
+}
+/*******************************TABLEAU***************/
+table
+{
+    border-collapse: collapse; 
+    width: 500px;
+    align-items: center;
+    margin: 0px 0px 20px 100px;
+}
+th
+{
+    border: 1px solid #CEC5B0;
+    font-size:100%;
+}
+td 
+{
+    border: 1px solid #CEC5B0; 
+    font-size: 80%;
+    color: #A69E86; 
+    padding: 10px 0px 10px 0px; 
+  
+}
+thead th
+{
+    border: 1px solid #CEC5B0;
+    border-bottom: 5px solid #CEC5B0;
+    font-size:100%;
+    padding:10px;  
+    
+}
+thead th:first-child{
+    width: 250px;
+}
+tbody th{
+    text-align: left;
+}
+tfoot td{
+    padding-left: 100px;
+}
+strong{
+    font-style:bold;
+}

@@ -1,0 +1,47 @@
+h1{
+	color: white;
+}
+h2{
+	color:#A69E86;
+}
+a{
+	color: #CDC5B0;
+}
+p{
+	color: #CDC5B0;
+}
+h3{
+	color:#A69E86;
+}
+h4{
+color:#A69E86;
+}
+h5{
+	color:#A6AA19;
+}
+aside{
+    border-right: #BABABA dashed 1px;
+}
+
+footer{
+    background:#9A9075;
+}
+footer div li a {
+    color:white;
+}
+.phraseverteheader{
+    color:#B2B537 ;
+}
+.titrerouge {
+    color:#D33E04;
+}
+.date{
+    color:#B2B537;  
+}
+.readmore {
+color : #6A6A6A;
+}
+
+.copyright{
+color:#9A9075;
+}
